@@ -1,1 +1,28 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-donnut
+      [title]="'Grafica 1'"
+      [labels]="labels1"
+      [data]="data1"
+    ></app-donnut>
+  </div>
+  <div class="col-6">
+    <app-donnut
+      [title]="'Grafica 2'"
+      [labels]="labels2"
+      [data]="data2"
+    ></app-donnut>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-donnut
+      [title]="'Grafica 3'"
+      [labels]="labels3"
+      [data]="data3"
+    ></app-donnut>
+  </div>
+  <div class="col-6">
+    <app-donnut [title]="'Grafica 4'"></app-donnut>
+  </div>
+</div>

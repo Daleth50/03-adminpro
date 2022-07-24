@@ -7,18 +7,9 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PagesModule } from './pages/pages.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-
-    NopagefoundComponent,    
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    PagesModule,
-    AuthModule
-  ],
+  declarations: [AppComponent, NopagefoundComponent],
+  imports: [BrowserModule, AppRoutingModule, PagesModule, AuthModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
